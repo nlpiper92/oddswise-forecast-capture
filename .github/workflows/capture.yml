@@ -1,0 +1,37 @@
+name: capture
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # 00:17, 06:17, 12:17, 18:17 UTC
+  workflow_dispatch:          # lets you start a pass by hand
+
+permissions:
+  contents: write             # the built-in token may only write this repo's files
+
+concurrency:
+  group: capture              # two passes can never run at the same time
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run one capture pass
+        run: python3 capture.py run
+        env:
+          CAPTURE_MODE: cloud
+
+      - name: Save the new files (never edits old captures)
+        if: always()
+        run: |
+          git config user.name "forecast-capture-bot"
+          git config user.email "forecast-capture-bot@users.noreply.github.com"
+          git add captures runs venue_cache.json
+          if git diff --cached --quiet; then echo "nothing new to save"; exit 0; fi
+          SUMMARY="$(cat runs/*.log | sort | tail -n 1)"
+          git commit -m "capture: ${SUMMARY}"
+          git pull --rebase
+          git push

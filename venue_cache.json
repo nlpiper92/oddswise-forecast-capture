@@ -1,0 +1,552 @@
+{
+ "3796": {
+  "venue": "Houchens Industries-L.T. Smith Stadium",
+  "city": "Bowling Green",
+  "state": "KY",
+  "lat": 36.99032,
+  "lon": -86.4436,
+  "confidence": "high",
+  "note": "matched Bowling Green, Kentucky",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LMK/29,19/forecast/hourly"
+ },
+ "3878": {
+  "venue": "Robert W. Plaster Stadium",
+  "city": "Springfield",
+  "state": "MO",
+  "lat": 37.21533,
+  "lon": -93.29824,
+  "confidence": "high",
+  "note": "matched Springfield, Missouri",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/SGF/67,35/forecast/hourly"
+ },
+ "3725": {
+  "venue": "Johnny \"Red\" Floyd Stadium",
+  "city": "Murfreesboro",
+  "state": "TN",
+  "lat": 35.84562,
+  "lon": -86.39027,
+  "confidence": "high",
+  "note": "matched Murfreesboro, Tennessee",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/OHX/65,44/forecast/hourly"
+ },
+ "3601": {
+  "venue": "Aggie Memorial Stadium",
+  "city": "Las Cruces",
+  "state": "NM",
+  "lat": 32.31232,
+  "lon": -106.77834,
+  "confidence": "high",
+  "note": "matched Las Cruces, New Mexico",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/EPZ/91,81/forecast/hourly"
+ },
+ "3825": {
+  "venue": "DATCU Stadium",
+  "city": "Denton",
+  "state": "TX",
+  "lat": 33.21484,
+  "lon": -97.13307,
+  "confidence": "high",
+  "note": "matched Denton, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/FWD/77,123/forecast/hourly"
+ },
+ "3651": {
+  "venue": "Bridgeforth Stadium",
+  "city": "Harrisonburg",
+  "state": "VA",
+  "lat": 38.44957,
+  "lon": -78.86892,
+  "confidence": "high",
+  "note": "matched Harrisonburg, Virginia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LWX/35,43/forecast/hourly"
+ },
+ "4418": {
+  "venue": "Jerry Richardson Stadium",
+  "city": "Charlotte",
+  "state": "NC",
+  "lat": 35.22709,
+  "lon": -80.84313,
+  "confidence": "high",
+  "note": "matched Charlotte, North Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/GSP/119,65/forecast/hourly"
+ },
+ "3652": {
+  "venue": "Acrisure Bounce House",
+  "city": "Orlando",
+  "state": "FL",
+  "lat": 28.53834,
+  "lon": -81.37924,
+  "confidence": "high",
+  "note": "matched Orlando, Florida",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MLB/26,68/forecast/hourly"
+ },
+ "3757": {
+  "venue": "Hornet Stadium",
+  "city": "Sacramento",
+  "state": "CA",
+  "lat": 38.58157,
+  "lon": -121.4944,
+  "confidence": "high",
+  "note": "matched Sacramento, California",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/STO/41,68/forecast/hourly"
+ },
+ "3738": {
+  "venue": "Gillette Stadium",
+  "city": "Foxborough",
+  "state": "MA",
+  "lat": 42.06538,
+  "lon": -71.24783,
+  "confidence": "high",
+  "note": "matched Foxborough, Massachusetts",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BOX/67,87/forecast/hourly"
+ },
+ "3784": {
+  "venue": "Galaxy Stadium",
+  "city": "Lubbock",
+  "state": "TX",
+  "lat": 33.57786,
+  "lon": -101.85517,
+  "confidence": "high",
+  "note": "matched Lubbock, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LUB/49,33/forecast/hourly"
+ },
+ "3793": {
+  "venue": "Kinnick Stadium",
+  "city": "Iowa City",
+  "state": "IA",
+  "lat": 41.66113,
+  "lon": -91.53017,
+  "confidence": "high",
+  "note": "matched Iowa City, Iowa",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/DVN/35,72/forecast/hourly"
+ },
+ "3670": {
+  "venue": "Carter-Finley Stadium",
+  "city": "Raleigh",
+  "state": "NC",
+  "lat": 35.7721,
+  "lon": -78.63861,
+  "confidence": "high",
+  "note": "matched Raleigh, North Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/RAH/75,57/forecast/hourly"
+ },
+ "3982": {
+  "venue": "Wallace Wade Stadium",
+  "city": "Durham",
+  "state": "NC",
+  "lat": 35.99403,
+  "lon": -78.89862,
+  "confidence": "high",
+  "note": "matched Durham, North Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/RAH/64,66/forecast/hourly"
+ },
+ "3665": {
+  "venue": "SECU Stadium",
+  "city": "College Park",
+  "state": "MD",
+  "lat": 38.98067,
+  "lon": -76.93692,
+  "confidence": "high",
+  "note": "matched College Park, Maryland",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LWX/100,76/forecast/hourly"
+ },
+ "3886": {
+  "venue": "Raymond James Stadium",
+  "city": "Tampa",
+  "state": "FL",
+  "lat": 27.94752,
+  "lon": -82.45843,
+  "confidence": "high",
+  "note": "matched Tampa, Florida",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/TBW/71,97/forecast/hourly"
+ },
+ "3980": {
+  "venue": "Waldo Stadium",
+  "city": "Kalamazoo",
+  "state": "MI",
+  "lat": 42.29171,
+  "lon": -85.58723,
+  "confidence": "high",
+  "note": "matched Kalamazoo, Michigan",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/GRR/46,16/forecast/hourly"
+ },
+ "6577": {
+  "venue": "SHI Stadium",
+  "city": "Piscataway",
+  "state": "NJ",
+  "lat": 40.49927,
+  "lon": -74.39904,
+  "confidence": "high",
+  "note": "matched Piscataway, New Jersey",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/PHI/72,107/forecast/hourly"
+ },
+ "3974": {
+  "venue": "Vaught-Hemingway Stadium",
+  "city": "Oxford",
+  "state": "MS",
+  "lat": 34.3665,
+  "lon": -89.51925,
+  "confidence": "high",
+  "note": "matched Oxford, Mississippi",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MEG/63,33/forecast/hourly"
+ },
+ "3918": {
+  "venue": "S.B. Ballard Stadium",
+  "city": "Norfolk",
+  "state": "VA",
+  "lat": null,
+  "lon": null,
+  "confidence": "low",
+  "note": "3 similar matches, ambiguous"
+ },
+ "3726": {
+  "venue": "Folsom Field",
+  "city": "Boulder",
+  "state": "CO",
+  "lat": 40.01499,
+  "lon": -105.27055,
+  "confidence": "high",
+  "note": "matched Boulder, Colorado",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BOU/54,75/forecast/hourly"
+ },
+ "4246": {
+  "venue": "Center Parc Stadium",
+  "city": "Atlanta",
+  "state": "GA",
+  "lat": 33.749,
+  "lon": -84.38798,
+  "confidence": "high",
+  "note": "matched Atlanta, Georgia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/FFC/51,87/forecast/hourly"
+ },
+ "3713": {
+  "venue": "Falcon Stadium",
+  "city": "USAF Academy",
+  "state": "CO",
+  "lat": 38.75764,
+  "lon": -104.30059,
+  "confidence": "high",
+  "note": "matched USAF Academy Bullseye Auxiliary Airfield, Colorado",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/PUB/108,86/forecast/hourly"
+ },
+ "3699": {
+  "venue": "Dowdy-Ficklen Stadium",
+  "city": "Greenville",
+  "state": "NC",
+  "lat": 35.61266,
+  "lon": -77.36635,
+  "confidence": "high",
+  "note": "matched Greenville, North Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MHX/30,95/forecast/hourly"
+ },
+ "6526": {
+  "venue": "Hancock Whitney Stadium",
+  "city": "Mobile",
+  "state": "AL",
+  "lat": 30.69436,
+  "lon": -88.04305,
+  "confidence": "high",
+  "note": "matched Mobile, Alabama",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MOB/52,67/forecast/hourly"
+ },
+ "3873": {
+  "venue": "L&N Federal Credit Union Stadium",
+  "city": "Louisville",
+  "state": "KY",
+  "lat": 38.25424,
+  "lon": -85.75941,
+  "confidence": "high",
+  "note": "matched Louisville, Kentucky",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LMK/50,78/forecast/hourly"
+ },
+ "3830": {
+  "venue": "Memorial Stadium (Bloomington, IN)",
+  "city": "Bloomington",
+  "state": "IN",
+  "lat": 39.16533,
+  "lon": -86.52639,
+  "confidence": "high",
+  "note": "matched Bloomington, Indiana",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/IND/47,41/forecast/hourly"
+ },
+ "3801": {
+  "venue": "LaVell Edwards Stadium",
+  "city": "Provo",
+  "state": "UT",
+  "lat": 40.23384,
+  "lon": -111.65853,
+  "confidence": "high",
+  "note": "matched Provo, Utah",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/SLC/105,151/forecast/hourly"
+ },
+ "3626": {
+  "venue": "Autzen Stadium",
+  "city": "Eugene",
+  "state": "OR",
+  "lat": 44.05207,
+  "lon": -123.08675,
+  "confidence": "high",
+  "note": "matched Eugene, Oregon",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/PQR/85,39/forecast/hourly"
+ },
+ "3616": {
+  "venue": "Amon G. Carter Stadium",
+  "city": "Fort Worth",
+  "state": "TX",
+  "lat": 32.72541,
+  "lon": -97.32085,
+  "confidence": "high",
+  "note": "matched Fort Worth, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/FWD/70,102/forecast/hourly"
+ },
+ "3905": {
+  "venue": "Maverik Stadium",
+  "city": "Logan",
+  "state": "UT",
+  "lat": 41.73549,
+  "lon": -111.83439,
+  "confidence": "high",
+  "note": "matched Logan, Utah",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/SLC/108,219/forecast/hourly"
+ },
+ "3992": {
+  "venue": "Williams Stadium (VA)",
+  "city": "Lynchburg",
+  "state": "VA",
+  "lat": 37.41375,
+  "lon": -79.14225,
+  "confidence": "high",
+  "note": "matched Lynchburg, Virginia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/RNK/102,79/forecast/hourly"
+ },
+ "3817": {
+  "venue": "Malone Stadium",
+  "city": "Monroe",
+  "state": "LA",
+  "lat": 32.50931,
+  "lon": -92.1193,
+  "confidence": "high",
+  "note": "matched Monroe, Louisiana",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/SHV/134,69/forecast/hourly"
+ },
+ "3854": {
+  "venue": "Nippert Stadium",
+  "city": "Cincinnati",
+  "state": "OH",
+  "lat": 39.12711,
+  "lon": -84.51439,
+  "confidence": "high",
+  "note": "matched Cincinnati, Ohio",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/ILN/35,39/forecast/hourly"
+ },
+ "3630": {
+  "venue": "Allegacy Federal Credit Union Stadium",
+  "city": "Winston-Salem",
+  "state": "NC",
+  "lat": 36.09986,
+  "lon": -80.24422,
+  "confidence": "high",
+  "note": "matched Winston-Salem, North Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/RAH/15,65/forecast/hourly"
+ },
+ "3935": {
+  "venue": "CEFCU Stadium",
+  "city": "San Jose",
+  "state": "CA",
+  "lat": 37.33939,
+  "lon": -121.89496,
+  "confidence": "high",
+  "note": "matched San Jose, California",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MTR/99,82/forecast/hourly"
+ },
+ "1056": {
+  "venue": "Rose Bowl",
+  "city": "Pasadena",
+  "state": "CA",
+  "lat": 34.14778,
+  "lon": -118.14452,
+  "confidence": "high",
+  "note": "matched Pasadena, California",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LOX/159,48/forecast/hourly"
+ },
+ "3835": {
+  "venue": "Memorial Stadium (Norman, OK)",
+  "city": "Norman",
+  "state": "OK",
+  "lat": 35.22257,
+  "lon": -97.43948,
+  "confidence": "high",
+  "note": "matched Norman, Oklahoma",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/OUN/100,83/forecast/hourly"
+ },
+ "3632": {
+  "venue": "Beaver Stadium",
+  "city": "University Park",
+  "state": "PA",
+  "lat": 40.80201,
+  "lon": -77.85639,
+  "confidence": "high",
+  "note": "matched University Park, Pennsylvania",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/CTP/69,57/forecast/hourly"
+ },
+ "3608": {
+  "venue": "Allen E. Paulson Stadium",
+  "city": "Statesboro",
+  "state": "GA",
+  "lat": 32.44879,
+  "lon": -81.78317,
+  "confidence": "high",
+  "note": "matched Statesboro, Georgia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/CHS/20,55/forecast/hourly"
+ },
+ "3772": {
+  "venue": "Jack Trice Stadium",
+  "city": "Ames",
+  "state": "IA",
+  "lat": 42.03471,
+  "lon": -93.61994,
+  "confidence": "high",
+  "note": "matched Ames, Iowa",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/DMX/73,70/forecast/hourly"
+ },
+ "3697": {
+  "venue": "Doak Campbell Stadium",
+  "city": "Tallahassee",
+  "state": "FL",
+  "lat": 30.43826,
+  "lon": -84.28073,
+  "confidence": "high",
+  "note": "matched Tallahassee, Florida",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/TAE/84,86/forecast/hourly"
+ },
+ "7311": {
+  "venue": "Snapdragon Stadium",
+  "city": "San Diego",
+  "state": "CA",
+  "lat": 32.71571,
+  "lon": -117.16472,
+  "confidence": "high",
+  "note": "matched San Diego, California",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/SGX/57,14/forecast/hourly"
+ },
+ "3787": {
+  "venue": "Kenan Stadium",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "lat": 35.9132,
+  "lon": -79.05584,
+  "confidence": "high",
+  "note": "matched Chapel Hill, North Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/RAH/59,62/forecast/hourly"
+ },
+ "477": {
+  "venue": "Los Angeles Memorial Coliseum",
+  "city": "Los Angeles",
+  "state": "CA",
+  "lat": 34.05223,
+  "lon": -118.24368,
+  "confidence": "high",
+  "note": "matched Los Angeles, California",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LOX/155,45/forecast/hourly"
+ },
+ "3910": {
+  "venue": "DKR-Texas Memorial Stadium",
+  "city": "Austin",
+  "state": "TX",
+  "lat": 30.26715,
+  "lon": -97.74306,
+  "confidence": "high",
+  "note": "matched Austin, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/EWX/156,91/forecast/hourly"
+ },
+ "3752": {
+  "venue": "Acrisure Stadium",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "lat": 40.44062,
+  "lon": -79.99589,
+  "confidence": "high",
+  "note": "matched Pittsburgh, Pennsylvania",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/PBZ/78,66/forecast/hourly"
+ },
+ "3887": {
+  "venue": "Donald W. Reynolds Razorback Stadium",
+  "city": "Fayetteville",
+  "state": "AR",
+  "lat": 36.06258,
+  "lon": -94.15743,
+  "confidence": "high",
+  "note": "matched Fayetteville, Arkansas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/TSA/107,100/forecast/hourly"
+ },
+ "3834": {
+  "venue": "Memorial Stadium (Lincoln, NE)",
+  "city": "Lincoln",
+  "state": "NE",
+  "lat": 40.8,
+  "lon": -96.66696,
+  "confidence": "high",
+  "note": "matched Lincoln, Nebraska",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/OAX/57,39/forecast/hourly"
+ },
+ "3805": {
+  "venue": "Simmons Bank Liberty Stadium",
+  "city": "Memphis",
+  "state": "TN",
+  "lat": 35.14953,
+  "lon": -90.04898,
+  "confidence": "high",
+  "note": "matched Memphis, Tennessee",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MEG/42,67/forecast/hourly"
+ },
+ "3653": {
+  "venue": "Albertsons Stadium",
+  "city": "Boise",
+  "state": "ID",
+  "lat": 43.6135,
+  "lon": -116.20345,
+  "confidence": "high",
+  "note": "matched Boise, Idaho",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BOI/133,86/forecast/hourly"
+ },
+ "3660": {
+  "venue": "Valley Children's Stadium",
+  "city": "Fresno",
+  "state": "CA",
+  "lat": 36.74773,
+  "lon": -119.77237,
+  "confidence": "high",
+  "note": "matched Fresno, California",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/HNX/53,100/forecast/hourly"
+ },
+ "3768": {
+  "venue": "InfoCision Stadium",
+  "city": "Akron",
+  "state": "OH",
+  "lat": 41.08144,
+  "lon": -81.51901,
+  "confidence": "high",
+  "note": "matched Akron, Ohio",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/CLE/91,47/forecast/hourly"
+ },
+ "3996": {
+  "venue": "Yager Stadium",
+  "city": "Oxford",
+  "state": "OH",
+  "lat": 39.507,
+  "lon": -84.74523,
+  "confidence": "high",
+  "note": "matched Oxford, Ohio",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/ILN/26,56/forecast/hourly"
+ },
+ "override|S.B. Ballard Stadium|Norfolk|VA": {
+  "venue": "S.B. Ballard Stadium",
+  "city": "Norfolk",
+  "state": "VA",
+  "lat": 36.8889,
+  "lon": -76.3049,
+  "confidence": "high",
+  "override": true,
+  "note": "location pinned by venue_overrides.json (not geocoded)",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/AKQ/89,53/forecast/hourly"
+ }
+}
