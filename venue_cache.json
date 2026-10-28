@@ -548,5 +548,15 @@
   "override": true,
   "note": "location pinned by venue_overrides.json (not geocoded)",
   "forecast_hourly": "https://api.weather.gov/gridpoints/AKQ/89,53/forecast/hourly"
+ },
+ "3985": {
+  "venue": "Warren McGuirk Alumni Stadium",
+  "city": "Amherst",
+  "state": "MA",
+  "lat": 42.36723,
+  "lon": -72.51852,
+  "confidence": "high",
+  "note": "matched Amherst, Massachusetts",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BOX/22,93/forecast/hourly"
  }
 }
