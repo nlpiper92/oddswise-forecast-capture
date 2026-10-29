@@ -558,5 +558,25 @@
   "confidence": "high",
   "note": "matched Amherst, Massachusetts",
   "forecast_hourly": "https://api.weather.gov/gridpoints/BOX/22,93/forecast/hourly"
+ },
+ "3715": {
+  "venue": "Flagler Credit Union Stadium",
+  "city": "Boca Raton",
+  "state": "FL",
+  "lat": 26.35869,
+  "lon": -80.0831,
+  "confidence": "high",
+  "note": "matched Boca Raton, Florida",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MFL/111,77/forecast/hourly"
+ },
+ "3815": {
+  "venue": "M. M. Roberts Stadium",
+  "city": "Hattiesburg",
+  "state": "MS",
+  "lat": 31.32712,
+  "lon": -89.29034,
+  "confidence": "high",
+  "note": "matched Hattiesburg, Mississippi",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/JAN/111,21/forecast/hourly"
  }
 }
