@@ -698,5 +698,215 @@
   "confidence": "high",
   "note": "matched Seattle, Washington",
   "forecast_hourly": "https://api.weather.gov/gridpoints/SEW/125,68/forecast/hourly"
+ },
+ "587": {
+  "venue": "Rice-Eccles Stadium",
+  "city": "Salt Lake City",
+  "state": "UT",
+  "lat": 40.76078,
+  "lon": -111.89105,
+  "confidence": "high",
+  "note": "matched Salt Lake City, Utah",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/SLC/100,175/forecast/hourly"
+ },
+ "3838": {
+  "venue": "Memorial Stadium",
+  "city": "Columbia",
+  "state": "MO",
+  "lat": 38.95171,
+  "lon": -92.33407,
+  "confidence": "high",
+  "note": "matched Columbia, Missouri",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LSX/20,87/forecast/hourly"
+ },
+ "3615": {
+  "venue": "Alumni Stadium (Chestnut Hill, MA)",
+  "city": "Chestnut Hill",
+  "state": "MA",
+  "lat": 42.33065,
+  "lon": -71.16616,
+  "confidence": "high",
+  "note": "matched Chestnut Hill, Massachusetts",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BOX/68,99/forecast/hourly"
+ },
+ "3892": {
+  "venue": "Pratt & Whitney Stadium",
+  "city": "East Hartford",
+  "state": "CT",
+  "lat": 41.78232,
+  "lon": -72.61203,
+  "confidence": "high",
+  "note": "matched East Hartford, Connecticut",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BOX/24,66/forecast/hourly"
+ },
+ "4729": {
+  "venue": "Yulman Stadium",
+  "city": "New Orleans",
+  "state": "LA",
+  "lat": 29.95465,
+  "lon": -90.07507,
+  "confidence": "high",
+  "note": "matched New Orleans, Louisiana",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LIX/68,88/forecast/hourly"
+ },
+ "347": {
+  "venue": "Camp Randall Stadium",
+  "city": "Madison",
+  "state": "WI",
+  "lat": 43.07305,
+  "lon": -89.40123,
+  "confidence": "high",
+  "note": "matched Madison, Wisconsin",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MKX/38,64/forecast/hourly"
+ },
+ "3907": {
+  "venue": "Ross-Ade Stadium",
+  "city": "West Lafayette",
+  "state": "IN",
+  "lat": 40.42587,
+  "lon": -86.90807,
+  "confidence": "high",
+  "note": "matched West Lafayette, Indiana",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/IND/30,97/forecast/hourly"
+ },
+ "3785": {
+  "venue": "Jordan-Hare Stadium",
+  "city": "Auburn",
+  "state": "AL",
+  "lat": 32.60986,
+  "lon": -85.48078,
+  "confidence": "high",
+  "note": "matched Auburn, Alabama",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BMX/111,47/forecast/hourly"
+ },
+ "3654": {
+  "venue": "Brooks Stadium (SC)",
+  "city": "Conway",
+  "state": "SC",
+  "lat": 33.836,
+  "lon": -79.04781,
+  "confidence": "high",
+  "note": "matched Conway, South Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/ILM/51,53/forecast/hourly"
+ },
+ "3792": {
+  "venue": "Kidd Brewer Stadium",
+  "city": "Boone",
+  "state": "NC",
+  "lat": 36.21679,
+  "lon": -81.67455,
+  "confidence": "high",
+  "note": "matched Boone, North Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/RNK/17,16/forecast/hourly"
+ },
+ "3994": {
+  "venue": "Williams-Brice Stadium",
+  "city": "Columbia",
+  "state": "SC",
+  "lat": 34.00071,
+  "lon": -81.03481,
+  "confidence": "high",
+  "note": "matched Columbia, South Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/CAE/65,61/forecast/hourly"
+ },
+ "3625": {
+  "venue": "Centennial Bank Stadium",
+  "city": "Jonesboro",
+  "state": "AR",
+  "lat": 35.8423,
+  "lon": -90.70428,
+  "confidence": "high",
+  "note": "matched Jonesboro, Arkansas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MEG/17,97/forecast/hourly"
+ },
+ "4899": {
+  "venue": "Walens Family Field at Fifth Third Stadium",
+  "city": "Kennesaw",
+  "state": "GA",
+  "lat": 34.02343,
+  "lon": -84.61549,
+  "confidence": "high",
+  "note": "matched Kennesaw, Georgia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/FFC/41,98/forecast/hourly"
+ },
+ "3861": {
+  "venue": "Ohio Stadium",
+  "city": "Columbus",
+  "state": "OH",
+  "lat": 39.96118,
+  "lon": -82.99879,
+  "confidence": "high",
+  "note": "matched Columbus, Ohio",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/ILN/85,81/forecast/hourly"
+ },
+ "3958": {
+  "venue": "Tiger Stadium (LA)",
+  "city": "Baton Rouge",
+  "state": "LA",
+  "lat": 30.44332,
+  "lon": -91.18747,
+  "confidence": "high",
+  "note": "matched Baton Rouge, Louisiana",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LIX/25,109/forecast/hourly"
+ },
+ "7221": {
+  "venue": "Protective Stadium",
+  "city": "Birmingham",
+  "state": "AL",
+  "lat": 33.52066,
+  "lon": -86.80249,
+  "confidence": "high",
+  "note": "matched Birmingham, Alabama",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BMX/59,84/forecast/hourly"
+ },
+ "3852": {
+  "venue": "Navy-Marine Corps Memorial Stadium",
+  "city": "Annapolis",
+  "state": "MD",
+  "lat": 38.97859,
+  "lon": -76.49184,
+  "confidence": "high",
+  "note": "matched Annapolis, Maryland",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LWX/115,78/forecast/hourly"
+ },
+ "2031": {
+  "venue": "Pitbull Stadium",
+  "city": "Miami",
+  "state": "FL",
+  "lat": 25.77427,
+  "lon": -80.19366,
+  "confidence": "high",
+  "note": "matched Miami, Florida",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MFL/110,51/forecast/hourly"
+ },
+ "3975": {
+  "venue": "Veterans Memorial Stadium (AL)",
+  "city": "Troy",
+  "state": "AL",
+  "lat": 31.80877,
+  "lon": -85.96995,
+  "confidence": "high",
+  "note": "matched Troy, Alabama",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BMX/95,11/forecast/hourly"
+ },
+ "3693": {
+  "venue": "Davis Wade Stadium",
+  "city": "Starkville",
+  "state": "MS",
+  "lat": 33.45049,
+  "lon": -88.81961,
+  "confidence": "high",
+  "note": "matched Starkville, Mississippi",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/JAN/124,115/forecast/hourly"
+ },
+ "3666": {
+  "venue": "Our Lady of Lourdes Stadium",
+  "city": "Lafayette",
+  "state": "LA",
+  "lat": 30.22409,
+  "lon": -92.01984,
+  "confidence": "high",
+  "note": "matched Lafayette, Louisiana",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LCH/105,95/forecast/hourly"
  }
 }
