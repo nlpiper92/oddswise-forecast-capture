@@ -578,5 +578,125 @@
   "confidence": "high",
   "note": "matched Hattiesburg, Mississippi",
   "forecast_hourly": "https://api.weather.gov/gridpoints/JAN/111,21/forecast/hourly"
+ },
+ "3735": {
+  "venue": "Gerald J. Ford Stadium",
+  "city": "Dallas",
+  "state": "TX",
+  "lat": 32.78306,
+  "lon": -96.80667,
+  "confidence": "high",
+  "note": "matched Dallas, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/FWD/89,104/forecast/hourly"
+ },
+ "3832": {
+  "venue": "Gies Memorial Stadium",
+  "city": "Champaign",
+  "state": "IL",
+  "lat": 40.11642,
+  "lon": -88.24338,
+  "confidence": "high",
+  "note": "matched Champaign, Illinois",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/ILX/96,73/forecast/hourly"
+ },
+ "3816": {
+  "venue": "Mackay Stadium",
+  "city": "Reno",
+  "state": "NV",
+  "lat": 39.52963,
+  "lon": -119.8138,
+  "confidence": "high",
+  "note": "matched Reno, Nevada",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/REV/45,106/forecast/hourly"
+ },
+ "3619": {
+  "venue": "Casino Del Sol Stadium",
+  "city": "Tucson",
+  "state": "AZ",
+  "lat": 32.22174,
+  "lon": -110.92648,
+  "confidence": "high",
+  "note": "matched Tucson, Arizona",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/TWC/93,49/forecast/hourly"
+ },
+ "3953": {
+  "venue": "Huntington Bank Stadium",
+  "city": "Minneapolis",
+  "state": "MN",
+  "lat": 44.97997,
+  "lon": -93.26384,
+  "confidence": "high",
+  "note": "matched Minneapolis, Minnesota",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MPX/108,72/forecast/hourly"
+ },
+ "4728": {
+  "venue": "TDECU Stadium",
+  "city": "Houston",
+  "state": "TX",
+  "lat": 29.76328,
+  "lon": -95.36327,
+  "confidence": "high",
+  "note": "matched Houston, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/HGX/63,95/forecast/hourly"
+ },
+ "11823": {
+  "venue": "Ryan Field",
+  "city": "Evanston",
+  "state": "IL",
+  "lat": 42.04114,
+  "lon": -87.69006,
+  "confidence": "high",
+  "note": "matched Evanston, Illinois",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LOT/73,80/forecast/hourly"
+ },
+ "3636": {
+  "venue": "Bill Snyder Family Stadium",
+  "city": "Manhattan",
+  "state": "KS",
+  "lat": 39.18361,
+  "lon": -96.57167,
+  "confidence": "high",
+  "note": "matched Manhattan, Kansas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/TOP/50,55/forecast/hourly"
+ },
+ "3833": {
+  "venue": "David Booth Kansas Memorial Stadium",
+  "city": "Lawrence",
+  "state": "KS",
+  "lat": 38.97167,
+  "lon": -95.23525,
+  "confidence": "high",
+  "note": "matched Lawrence, Kansas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/TOP/97,45/forecast/hourly"
+ },
+ "4727": {
+  "venue": "McLane Stadium",
+  "city": "Waco",
+  "state": "TX",
+  "lat": 31.54933,
+  "lon": -97.14667,
+  "confidence": "high",
+  "note": "matched Waco, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/FWD/75,50/forecast/hourly"
+ },
+ "3558": {
+  "venue": "Michigan Stadium",
+  "city": "Ann Arbor",
+  "state": "MI",
+  "lat": 42.27756,
+  "lon": -83.74088,
+  "confidence": "high",
+  "note": "matched Ann Arbor, Michigan",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/DTX/43,29/forecast/hourly"
+ },
+ "3765": {
+  "venue": "Husky Stadium",
+  "city": "Seattle",
+  "state": "WA",
+  "lat": 47.60621,
+  "lon": -122.33207,
+  "confidence": "high",
+  "note": "matched Seattle, Washington",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/SEW/125,68/forecast/hourly"
  }
 }
