@@ -908,5 +908,105 @@
   "confidence": "high",
   "note": "matched Lafayette, Louisiana",
   "forecast_hourly": "https://api.weather.gov/gridpoints/LCH/105,95/forecast/hourly"
+ },
+ "5388": {
+  "venue": "Canvas Stadium",
+  "city": "Fort Collins",
+  "state": "CO",
+  "lat": 40.58526,
+  "lon": -105.08442,
+  "confidence": "high",
+  "note": "matched Fort Collins, Colorado",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BOU/63,100/forecast/hourly"
+ },
+ "3853": {
+  "venue": "Neyland Stadium",
+  "city": "Knoxville",
+  "state": "TN",
+  "lat": 35.96064,
+  "lon": -83.92074,
+  "confidence": "high",
+  "note": "matched Knoxville, Tennessee",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MRX/71,51/forecast/hourly"
+ },
+ "3662": {
+  "venue": "AmFirst Stadium",
+  "city": "Jacksonville",
+  "state": "AL",
+  "lat": 33.81382,
+  "lon": -85.7613,
+  "confidence": "high",
+  "note": "matched Jacksonville, Alabama",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BMX/97,100/forecast/hourly"
+ },
+ "3855": {
+  "venue": "Notre Dame Stadium",
+  "city": "Notre Dame",
+  "state": "IN",
+  "lat": 41.70019,
+  "lon": -86.23793,
+  "confidence": "high",
+  "note": "matched Notre Dame, Indiana",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/IWX/30,64/forecast/hourly"
+ },
+ "3947": {
+  "venue": "Mountain America Stadium",
+  "city": "Tempe",
+  "state": "AZ",
+  "lat": 33.41477,
+  "lon": -111.90931,
+  "confidence": "high",
+  "note": "matched Tempe, Arizona",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/PSR/165,56/forecast/hourly"
+ },
+ "721": {
+  "venue": "Bobby Dodd Stadium",
+  "city": "Atlanta",
+  "state": "GA",
+  "lat": 33.749,
+  "lon": -84.38798,
+  "confidence": "high",
+  "note": "matched Atlanta, Georgia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/FFC/51,87/forecast/hourly"
+ },
+ "3841": {
+  "venue": "Michie Stadium",
+  "city": "West Point",
+  "state": "NY",
+  "lat": 41.39148,
+  "lon": -73.95597,
+  "confidence": "high",
+  "note": "matched West Point, New York",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/OKX/30,73/forecast/hourly"
+ },
+ "3634": {
+  "venue": "Ben Hill Griffin Stadium",
+  "city": "Gainesville",
+  "state": "FL",
+  "lat": 29.65163,
+  "lon": -82.32483,
+  "confidence": "high",
+  "note": "matched Gainesville, Florida",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/JAX/43,32/forecast/hourly"
+ },
+ "3946": {
+  "venue": "Sun Bowl",
+  "city": "El Paso",
+  "state": "TX",
+  "lat": 31.75872,
+  "lon": -106.48693,
+  "confidence": "high",
+  "note": "matched El Paso, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/EPZ/100,56/forecast/hourly"
+ },
+ "3893": {
+  "venue": "Reser Stadium",
+  "city": "Corvallis",
+  "state": "OR",
+  "lat": 44.56457,
+  "lon": -123.26204,
+  "confidence": "high",
+  "note": "matched Corvallis, Oregon",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/PQR/85,64/forecast/hourly"
  }
 }
