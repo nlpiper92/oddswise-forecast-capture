@@ -1008,5 +1008,15 @@
   "confidence": "high",
   "note": "matched Corvallis, Oregon",
   "forecast_hourly": "https://api.weather.gov/gridpoints/PQR/85,64/forecast/hourly"
+ },
+ "3700": {
+  "venue": "Doyt L. Perry Stadium",
+  "city": "Bowling Green",
+  "state": "OH",
+  "lat": 41.37477,
+  "lon": -83.65132,
+  "confidence": "high",
+  "note": "matched Bowling Green, Ohio",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/CLE/17,53/forecast/hourly"
  }
 }

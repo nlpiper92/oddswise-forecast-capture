@@ -1,0 +1,1 @@
+start=2026-11-03T01:00:22Z end=2026-11-03T01:01:22Z expected=66 captured=60 indoor=3 no_location=0 too_far=3 failed=0 status=ok
