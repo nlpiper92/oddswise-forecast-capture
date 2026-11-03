@@ -1018,5 +1018,25 @@
   "confidence": "high",
   "note": "matched Bowling Green, Ohio",
   "forecast_hourly": "https://api.weather.gov/gridpoints/CLE/17,53/forecast/hourly"
+ },
+ "3919": {
+  "venue": "Scheumann Stadium",
+  "city": "Muncie",
+  "state": "IN",
+  "lat": 40.19338,
+  "lon": -85.38636,
+  "confidence": "high",
+  "note": "matched Muncie, Indiana",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/IND/83,90/forecast/hourly"
+ },
+ "3739": {
+  "venue": "Glass Bowl",
+  "city": "Toledo",
+  "state": "OH",
+  "lat": 41.66394,
+  "lon": -83.55521,
+  "confidence": "high",
+  "note": "matched Toledo, Ohio",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/CLE/19,67/forecast/hourly"
  }
 }
