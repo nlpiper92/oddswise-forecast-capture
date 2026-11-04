@@ -1038,5 +1038,15 @@
   "confidence": "high",
   "note": "matched Toledo, Ohio",
   "forecast_hourly": "https://api.weather.gov/gridpoints/CLE/19,67/forecast/hourly"
+ },
+ "3786": {
+  "venue": "Kelly/Shorts Stadium",
+  "city": "Mount Pleasant",
+  "state": "MI",
+  "lat": 43.59781,
+  "lon": -84.76751,
+  "confidence": "high",
+  "note": "matched Mount Pleasant, Michigan",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/GRR/69,78/forecast/hourly"
  }
 }
