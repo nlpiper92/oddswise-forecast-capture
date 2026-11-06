@@ -1048,5 +1048,64 @@
   "confidence": "high",
   "note": "matched Mount Pleasant, Michigan",
   "forecast_hourly": "https://api.weather.gov/gridpoints/GRR/69,78/forecast/hourly"
+ },
+ "3917": {
+  "venue": "Sanford Stadium",
+  "city": "Athens",
+  "state": "GA",
+  "lat": 33.96095,
+  "lon": -83.37794,
+  "confidence": "high",
+  "note": "matched Athens, Georgia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/FFC/87,99/forecast/hourly"
+ },
+ "3683": {
+  "venue": "Kroger Field",
+  "city": "Lexington",
+  "state": "KY",
+  "lat": null,
+  "lon": null,
+  "confidence": "low",
+  "note": "2 similar matches, ambiguous"
+ },
+ "3795": {
+  "venue": "Kyle Field",
+  "city": "College Station",
+  "state": "TX",
+  "lat": 30.62798,
+  "lon": -96.33441,
+  "confidence": "high",
+  "note": "matched College Station, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/HGX/26,133/forecast/hourly"
+ },
+ "3646": {
+  "venue": "Boone Pickens Stadium",
+  "city": "Stillwater",
+  "state": "OK",
+  "lat": 36.11561,
+  "lon": -97.05837,
+  "confidence": "high",
+  "note": "matched Stillwater, Oklahoma",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/OUN/114,122/forecast/hourly"
+ },
+ "3842": {
+  "venue": "Milan Puskar Stadium",
+  "city": "Morgantown",
+  "state": "WV",
+  "lat": 39.62953,
+  "lon": -79.9559,
+  "confidence": "high",
+  "note": "matched Morgantown, West Virginia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/PBZ/83,30/forecast/hourly"
+ },
+ "3799": {
+  "venue": "Lane Stadium",
+  "city": "Blacksburg",
+  "state": "VA",
+  "lat": 37.22957,
+  "lon": -80.41394,
+  "confidence": "high",
+  "note": "matched Blacksburg, Virginia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/RNK/58,66/forecast/hourly"
  }
 }
