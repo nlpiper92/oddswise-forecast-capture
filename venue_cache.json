@@ -1107,5 +1107,65 @@
   "confidence": "high",
   "note": "matched Blacksburg, Virginia",
   "forecast_hourly": "https://api.weather.gov/gridpoints/RNK/58,66/forecast/hourly"
+ },
+ "3948": {
+  "venue": "Hard Rock Stadium",
+  "city": "Miami Gardens",
+  "state": "FL",
+  "lat": 25.94204,
+  "lon": -80.2456,
+  "confidence": "high",
+  "note": "matched Miami Gardens, Florida",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MFL/107,58/forecast/hourly"
+ },
+ "3836": {
+  "venue": "Memorial Stadium (Clemson, SC)",
+  "city": "Clemson",
+  "state": "SC",
+  "lat": 34.68344,
+  "lon": -82.83737,
+  "confidence": "high",
+  "note": "matched Clemson, South Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/GSP/49,34/forecast/hourly"
+ },
+ "3973": {
+  "venue": "FirstBank Stadium",
+  "city": "Nashville",
+  "state": "TN",
+  "lat": 36.16589,
+  "lon": -86.78444,
+  "confidence": "high",
+  "note": "matched Nashville, Tennessee",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/OHX/50,57/forecast/hourly"
+ },
+ "3806": {
+  "venue": "Lincoln Financial Field",
+  "city": "Philadelphia",
+  "state": "PA",
+  "lat": 39.95238,
+  "lon": -75.16362,
+  "confidence": "high",
+  "note": "matched Philadelphia, Pennsylvania",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/PHI/50,79/forecast/hourly"
+ },
+ "3895": {
+  "venue": "First Community Stadium",
+  "city": "Houston",
+  "state": "TX",
+  "lat": 29.76328,
+  "lon": -95.36327,
+  "confidence": "high",
+  "note": "matched Houston, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/HGX/63,95/forecast/hourly"
+ },
+ "3647": {
+  "venue": "Elliott T. Bowers Stadium",
+  "city": "Huntsville",
+  "state": "TX",
+  "lat": 30.72353,
+  "lon": -95.55078,
+  "confidence": "high",
+  "note": "matched Huntsville, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/HGX/56,137/forecast/hourly"
  }
 }
