@@ -1167,5 +1167,115 @@
   "confidence": "high",
   "note": "matched Huntsville, Texas",
   "forecast_hourly": "https://api.weather.gov/gridpoints/HGX/56,137/forecast/hourly"
+ },
+ "3695": {
+  "venue": "Delaware Stadium",
+  "city": "Newark",
+  "state": "DE",
+  "lat": 39.68372,
+  "lon": -75.74966,
+  "confidence": "high",
+  "note": "matched Newark, Delaware",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/PHI/31,64/forecast/hourly"
+ },
+ "3923": {
+  "venue": "Scott Stadium",
+  "city": "Charlottesville",
+  "state": "VA",
+  "lat": 38.02931,
+  "lon": -78.47668,
+  "confidence": "high",
+  "note": "matched Charlottesville, Virginia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LWX/51,26/forecast/hourly"
+ },
+ "3674": {
+  "venue": "H. A. Chapman Stadium",
+  "city": "Tulsa",
+  "state": "OK",
+  "lat": 36.15398,
+  "lon": -95.99277,
+  "confidence": "high",
+  "note": "matched Tulsa, Oklahoma",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/TSA/41,105/forecast/hourly"
+ },
+ "3764": {
+  "venue": "Huskie Stadium",
+  "city": "Dekalb",
+  "state": "IL",
+  "lat": 41.92947,
+  "lon": -88.75036,
+  "confidence": "high",
+  "note": "matched DeKalb, Illinois",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LOT/37,73/forecast/hourly"
+ },
+ "3644": {
+  "venue": "UFCU Stadium",
+  "city": "San Marcos",
+  "state": "TX",
+  "lat": 29.88327,
+  "lon": -97.94139,
+  "confidence": "high",
+  "note": "matched San Marcos, Texas",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/EWX/148,74/forecast/hourly"
+ },
+ "3936": {
+  "venue": "Spartan Stadium",
+  "city": "East Lansing",
+  "state": "MI",
+  "lat": 42.73698,
+  "lon": -84.48387,
+  "confidence": "high",
+  "note": "matched East Lansing, Michigan",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/GRR/82,39/forecast/hourly"
+ },
+ "3776": {
+  "venue": "Joe Aillet Stadium",
+  "city": "Ruston",
+  "state": "LA",
+  "lat": 32.52321,
+  "lon": -92.63793,
+  "confidence": "high",
+  "note": "matched Ruston, Louisiana",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/SHV/115,69/forecast/hourly"
+ },
+ "3775": {
+  "venue": "Joan C. Edwards Stadium",
+  "city": "Huntington",
+  "state": "WV",
+  "lat": 38.41925,
+  "lon": -82.44515,
+  "confidence": "high",
+  "note": "matched Huntington, West Virginia",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/RLX/34,68/forecast/hourly"
+ },
+ "3971": {
+  "venue": "University Stadium (NM)",
+  "city": "Albuquerque",
+  "state": "NM",
+  "lat": 35.08449,
+  "lon": -106.65114,
+  "confidence": "high",
+  "note": "matched Albuquerque, New Mexico",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/ABQ/98,121/forecast/hourly"
+ },
+ "3820": {
+  "venue": "Martin Stadium",
+  "city": "Pullman",
+  "state": "WA",
+  "lat": 46.73127,
+  "lon": -117.17962,
+  "confidence": "high",
+  "note": "matched Pullman, Washington",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/OTX/141,45/forecast/hourly"
+ },
+ "7220": {
+  "venue": "Clarence T.C. Ching Athletics Complex",
+  "city": "Honolulu",
+  "state": "HI",
+  "lat": 21.30694,
+  "lon": -157.85834,
+  "confidence": "high",
+  "note": "matched Honolulu, Hawaii",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/HFO/154,145/forecast/hourly"
  }
 }
