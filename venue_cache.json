@@ -1296,5 +1296,27 @@
   "lon": null,
   "confidence": "low",
   "note": "2 similar matches, ambiguous"
+ },
+ "override|Kroger Field|Lexington|KY": {
+  "venue": "Kroger Field",
+  "city": "Lexington",
+  "state": "KY",
+  "lat": 38.02274,
+  "lon": -84.50515,
+  "confidence": "high",
+  "override": true,
+  "note": "location pinned by venue_overrides.json (not geocoded)",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/LMK/95,71/forecast/hourly"
+ },
+ "override|Zoeller Field at Dix Stadium|Kent|OH": {
+  "venue": "Zoeller Field at Dix Stadium",
+  "city": "Kent",
+  "state": "OH",
+  "lat": 41.13905,
+  "lon": -81.31367,
+  "confidence": "high",
+  "override": true,
+  "note": "location pinned by venue_overrides.json (not geocoded)",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/CLE/98,50/forecast/hourly"
  }
 }
