@@ -114,5 +114,153 @@ class Tests(unittest.TestCase):
         self.assertIn("runs [cloud]", out)
 
 
+class VenueOverrideRegressionTests(unittest.TestCase):
+    """Real affected venue identities; network-free, all writes stay in a temporary directory."""
+
+    CASES = (
+        ("3683", "Kroger Field", "Lexington", "KY", 38.02274, -84.50515,
+         "2026-11-14T23:15:00Z"),
+        ("3696", "Zoeller Field at Dix Stadium", "Kent", "OH", 41.13905, -81.31367,
+         "2026-11-18T00:00:00Z"),
+    )
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        # Use the checked-in data, while isolating every mutable cache and log.
+        self.overrides = Path(__file__).with_name("venue_overrides.json")
+        self.cache_path = Path(self.tmp.name) / "venue_cache.json"
+        self.patches = (
+            mock.patch.object(capture, "OVERRIDES", self.overrides),
+            mock.patch.object(capture, "VENUE_CACHE", self.cache_path),
+        )
+        for patch in self.patches:
+            patch.start()
+            self.addCleanup(patch.stop)
+
+    def game(self, case):
+        venue_id, venue, city, state, _, _, kickoff = case
+        return {**GAME, "venue_id": venue_id, "venue": venue, "city": city,
+                "state": state, "kickoff_utc": kickoff}
+
+    def negative_cache(self, case):
+        return {case[0]: {"venue": case[1], "city": case[2], "state": case[3],
+                         "lat": None, "lon": None, "confidence": "low",
+                         "note": "2 similar matches, ambiguous"}}
+
+    def test_required_stadium_coordinates_and_sources_are_present(self):
+        entries = json.loads(self.overrides.read_text(encoding="utf-8"))
+        keys = [tuple(e[k].strip().lower() for k in ("venue", "city", "state"))
+                for e in entries]
+        self.assertEqual(len(keys), len(set(keys)), "duplicate normalized override")
+        for case in self.CASES:
+            with self.subTest(venue=case[1]):
+                entry = capture.find_override(self.game(case))
+                self.assertIsNotNone(entry)
+                self.assertEqual((entry["lat"], entry["lon"]), (case[4], case[5]))
+                self.assertIn("https://", entry["source"])
+        # The pre-existing Norfolk pin must remain available and unchanged.
+        norfolk = capture.find_override(
+            {**GAME, "venue": "S.B. Ballard Stadium", "city": "Norfolk", "state": "VA"})
+        self.assertEqual((norfolk["lat"], norfolk["lon"]), (36.8889, -76.3049))
+
+    def test_pins_override_negative_cache_without_geocoding_or_erasing_history(self):
+        for case in self.CASES:
+            with self.subTest(venue=case[1]):
+                cache = self.negative_cache(case)
+                old = dict(cache[case[0]])
+                with mock.patch.object(capture, "fetch_json",
+                                       side_effect=AssertionError("no geocoder")):
+                    loc = capture.locate(self.game(case), cache)
+                self.assertEqual((loc["lat"], loc["lon"]), (case[4], case[5]))
+                self.assertEqual(loc["confidence"], "high")
+                self.assertTrue(loc["override"])
+                self.assertEqual(cache[case[0]], old)
+                self.assertFalse(self.cache_path.exists())
+
+    def test_matching_is_case_and_whitespace_insensitive(self):
+        for case in self.CASES:
+            with self.subTest(venue=case[1]):
+                game = self.game(case)
+                game.update({k: "  " + game[k].swapcase() + "  "
+                             for k in ("venue", "city", "state")})
+                pin = capture.find_override(game)
+                self.assertIsNotNone(pin)
+                self.assertEqual((pin["lat"], pin["lon"]), (case[4], case[5]))
+
+    def test_unmatched_city_state_or_name_is_not_guessed(self):
+        for case in self.CASES:
+            for field in ("venue", "city", "state"):
+                with self.subTest(venue=case[1], field=field):
+                    game = self.game(case)
+                    game[field] = "not the same " + game[field]
+                    self.assertIsNone(capture.find_override(game))
+                    with mock.patch.object(capture, "fetch_json",
+                                           side_effect=AssertionError("no request")):
+                        rec = capture.capture_game(game, self.negative_cache(case), {})
+                    self.assertEqual(rec["status"], "no_location")
+
+    def test_capture_uses_pin_and_preserves_raw_forecast_and_game_identity(self):
+        for case in self.CASES:
+            with self.subTest(venue=case[1]):
+                game = self.game(case)
+                hour = capture.parse_time(game["kickoff_utc"]).replace(minute=0)
+                raw = periods((hour - dt.timedelta(hours=3)).isoformat(), 7)
+                hourly = "https://api.weather.gov/gridpoints/TEST/1,2/forecast/hourly"
+                points_url = capture.NWS_POINTS.format(lat=case[4], lon=case[5])
+                responses = {
+                    points_url: ({"properties": {"forecastHourly": hourly}}, None),
+                    hourly: ({"properties": {"periods": raw, "updateTime": "ISSUED",
+                                             "generatedAt": "GENERATED"}}, "LAST-MODIFIED"),
+                }
+                cache = self.negative_cache(case)
+                with mock.patch.object(capture, "fetch_json",
+                                       side_effect=lambda url: responses[url]) as fetch:
+                    rec = capture.capture_game(game, cache, {})
+                self.assertEqual(rec["status"], "captured")
+                self.assertEqual(rec["game"], game)
+                self.assertTrue(rec["location"]["override"])
+                self.assertEqual(rec["raw_periods"], raw)
+                self.assertEqual(rec["source_url"], hourly)
+                self.assertEqual(rec["issued"]["updateTime"], "ISSUED")
+                self.assertEqual(fetch.call_args_list,
+                                 [mock.call(points_url), mock.call(hourly)])
+                self.assertEqual(cache[case[0]]["confidence"], "low")
+                persisted = json.loads(self.cache_path.read_text(encoding="utf-8"))
+                self.assertEqual(persisted[case[0]], self.negative_cache(case)[case[0]])
+                pin_key = f"override|{case[1]}|{case[2]}|{case[3]}"
+                self.assertEqual(persisted[pin_key]["forecast_hourly"], hourly)
+                # A later process can reuse the pin and grid URL without geocoding
+                # or a second points request; the original failure stays intact.
+                with mock.patch.object(capture, "fetch_json",
+                                       side_effect=lambda url: responses[url]) as fetch:
+                    again = capture.capture_game(game, persisted, {})
+                self.assertEqual(again["status"], "captured")
+                self.assertEqual(fetch.call_args_list, [mock.call(hourly)])
+                self.assertEqual(persisted[case[0]], self.negative_cache(case)[case[0]])
+
+    def test_resolved_venue_does_not_invent_an_unavailable_forecast(self):
+        for case in self.CASES:
+            with self.subTest(venue=case[1]):
+                hourly = "https://api.weather.gov/gridpoints/TEST/1,2/forecast/hourly"
+                with mock.patch.object(capture, "fetch_json", side_effect=[
+                    ({"properties": {"forecastHourly": hourly}}, None),
+                    ({"properties": {"periods": [], "updateTime": "ISSUED"}}, None),
+                ]):
+                    rec = capture.capture_game(self.game(case), self.negative_cache(case), {})
+                self.assertEqual(rec["status"], "too_far")
+                self.assertTrue(rec["location"]["override"])
+                self.assertNotIn("raw_periods", rec)
+
+    def test_indoor_game_with_a_pin_still_is_not_fetched(self):
+        for case in self.CASES:
+            with self.subTest(venue=case[1]):
+                with mock.patch.object(capture, "fetch_json",
+                                       side_effect=AssertionError("no request")):
+                    rec = capture.capture_game({**self.game(case), "indoor": True},
+                                               self.negative_cache(case), {})
+                self.assertEqual(rec["status"], "indoor_not_fetched")
+
+
 if __name__ == "__main__":
     unittest.main()
