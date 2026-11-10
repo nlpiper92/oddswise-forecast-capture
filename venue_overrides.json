@@ -6,5 +6,21 @@
     "lat": 36.8889,
     "lon": -76.3049,
     "source": "OpenStreetMap (Nominatim) for SB Ballard Stadium, 5115 Hampton Blvd, Norfolk (Foreman Field); about 0.3 km from the 36.886,-76.306 estimate. ESPN lists the venue under this name."
+  },
+  {
+    "venue": "Kroger Field",
+    "city": "Lexington",
+    "state": "KY",
+    "lat": 38.02274,
+    "lon": -84.50515,
+    "source": "Stadium coordinate from Mapcarta/OpenStreetMap way 23971162 (https://mapcarta.com/W23971162), checked 2026-11-10. Venue/address verified against UK Athletics: https://ukathletics.com/facilities/kroger-field/ (1540 University Drive, Lexington, KY). NWS points lookup 38.0227,-84.5052 resolves to LMK/95,71."
+  },
+  {
+    "venue": "Zoeller Field at Dix Stadium",
+    "city": "Kent",
+    "state": "OH",
+    "lat": 41.13905,
+    "lon": -81.31367,
+    "source": "Stadium coordinate from Mapcarta/OpenStreetMap way 201800149 (https://mapcarta.com/W201800149), checked 2026-11-10. Kent State identifies Dix as football/soccer/lacrosse home: https://kentstatesports.com/facilities/dix-stadium/2; official address 2213 Summit Street, Kent, OH: https://kentstatesports.com/sports/2013/7/15/FB_GamedayCentral. Exact ESPN venue name retained. NWS points lookup 41.1391,-81.3137 resolves to CLE/98,50."
   }
 ]
