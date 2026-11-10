@@ -1277,5 +1277,24 @@
   "confidence": "high",
   "note": "matched Honolulu, Hawaii",
   "forecast_hourly": "https://api.weather.gov/gridpoints/HFO/154,145/forecast/hourly"
+ },
+ "3876": {
+  "venue": "Peden Stadium",
+  "city": "Athens",
+  "state": "OH",
+  "lat": 39.32924,
+  "lon": -82.10126,
+  "confidence": "high",
+  "note": "matched Athens, Ohio",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/RLX/42,110/forecast/hourly"
+ },
+ "3696": {
+  "venue": "Zoeller Field at Dix Stadium",
+  "city": "Kent",
+  "state": "OH",
+  "lat": null,
+  "lon": null,
+  "confidence": "low",
+  "note": "2 similar matches, ambiguous"
  }
 }
