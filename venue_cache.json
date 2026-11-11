@@ -1318,5 +1318,15 @@
   "override": true,
   "note": "location pinned by venue_overrides.json (not geocoded)",
   "forecast_hourly": "https://api.weather.gov/gridpoints/CLE/98,50/forecast/hourly"
+ },
+ "3965": {
+  "venue": "Broadview Stadium",
+  "city": "Buffalo",
+  "state": "NY",
+  "lat": 42.88645,
+  "lon": -78.87837,
+  "confidence": "high",
+  "note": "matched Buffalo, New York",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BUF/36,47/forecast/hourly"
  }
 }
