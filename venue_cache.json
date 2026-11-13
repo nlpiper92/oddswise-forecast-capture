@@ -1328,5 +1328,15 @@
   "confidence": "high",
   "note": "matched Buffalo, New York",
   "forecast_hourly": "https://api.weather.gov/gridpoints/BUF/36,47/forecast/hourly"
+ },
+ "3984": {
+  "venue": "War Memorial Stadium",
+  "city": "Laramie",
+  "state": "WY",
+  "lat": 41.31137,
+  "lon": -105.5911,
+  "confidence": "high",
+  "note": "matched Laramie, Wyoming",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/CYS/84,23/forecast/hourly"
  }
 }
