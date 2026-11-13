@@ -1338,5 +1338,15 @@
   "confidence": "high",
   "note": "matched Laramie, Wyoming",
   "forecast_hourly": "https://api.weather.gov/gridpoints/CYS/84,23/forecast/hourly"
+ },
+ "3657": {
+  "venue": "Bryant-Denny Stadium",
+  "city": "Tuscaloosa",
+  "state": "AL",
+  "lat": 33.20984,
+  "lon": -87.56917,
+  "confidence": "high",
+  "note": "matched Tuscaloosa, Alabama",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/BMX/32,69/forecast/hourly"
  }
 }
