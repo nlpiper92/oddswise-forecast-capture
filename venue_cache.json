@@ -1348,5 +1348,15 @@
   "confidence": "high",
   "note": "matched Tuscaloosa, Alabama",
   "forecast_hourly": "https://api.weather.gov/gridpoints/BMX/32,69/forecast/hourly"
+ },
+ "3831": {
+  "venue": "California Memorial Stadium",
+  "city": "Berkeley",
+  "state": "CA",
+  "lat": 37.87159,
+  "lon": -122.27275,
+  "confidence": "high",
+  "note": "matched Berkeley, California",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/MTR/91,108/forecast/hourly"
  }
 }
