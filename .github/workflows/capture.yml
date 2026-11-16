@@ -1,8 +1,6 @@
 name: capture
 
 on:
-  schedule:
-    - cron: "17 */6 * * *"   # 00:17, 06:17, 12:17, 18:17 UTC
   workflow_dispatch:          # lets you start a pass by hand
 
 permissions:

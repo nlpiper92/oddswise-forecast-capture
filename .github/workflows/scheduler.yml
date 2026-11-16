@@ -1,0 +1,28 @@
+name: capture-scheduler
+
+on:
+  schedule:
+    - cron: "37 * * * *"  # retry opportunity every hour, away from top-of-hour load
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: write  # dispatch capture.yml in this repository using the built-in token
+
+concurrency:
+  group: capture-scheduler
+  cancel-in-progress: false
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Dispatch only if this six-hour slot needs a capture
+        run: python3 schedule_capture.py
+        env:
+          GH_TOKEN: ${{ github.token }}
