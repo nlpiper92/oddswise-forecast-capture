@@ -1378,5 +1378,15 @@
   "confidence": "high",
   "note": "matched Stanford, California",
   "forecast_hourly": "https://api.weather.gov/gridpoints/MTR/90,88/forecast/hourly"
+ },
+ "3628": {
+  "venue": "Bank of America Stadium",
+  "city": "Charlotte",
+  "state": "NC",
+  "lat": 35.22709,
+  "lon": -80.84313,
+  "confidence": "high",
+  "note": "matched Charlotte, North Carolina",
+  "forecast_hourly": "https://api.weather.gov/gridpoints/GSP/119,65/forecast/hourly"
  }
 }
